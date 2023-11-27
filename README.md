@@ -13,8 +13,10 @@ Dependencies:
 Install dependencies using pip install name. Replace "name" with the actual name of the package in dependencies list above.
 
 ## Order of Running codes
-Please run codes in folders word2vec_TFIDF_traditionalML, BERT, EDA_cluster_time_series one by one. The raw datasets and intermediate datasets needed to run the code are in included in each file, no need to change anything in the code.
+Please run codes in folders word2vec_TFIDF_traditionalML_RNN, BERT, EDA_cluster_time_series one by one. The raw datasets and intermediate datasets needed to run the code are in included in each file, no need to change anything in the code.
 
+## word2vec_TFIDF_traditionalML_RNN
+This folder contains code for using TF-IDF and Word2Vec to deal with text data. The subsequent steps involve applying traditional machine learning models ( Decision Tree, Naive Bayes, Linear SGD Classifier, Logistic Regression, Random Forest, and SVC) and applying RNN (Recurrent Netural Network) and evaluating models' performance.
 
 ## Multilabel classification using BERT
 This folder contains code for training a text multilabel classification model using BERT (Bidirectional Encoder Representations from Transformers). The model is designed to classify Yelp reviews into five categories: 'food_quality', 'environment', 'service', 'convenience', 'cost_effectiveness'.
