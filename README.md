@@ -13,7 +13,7 @@ Dependencies:
 Install dependencies using pip install name. Replace "name" with the actual name of the package in dependencies list above.
 
 ## Order of Running codes
-Please run codes in folders Word2Vec_TFIDF_traditionalML_RNN, BERT, EDA_cluster_time_series one by one. The raw datasets and intermediate datasets needed to run the code are in included in each file, no need to change anything in the code.
+Please run codes in folders Word2Vec_TFIDF_traditionalML_RNN, BERT, EDA_cluster_time_series one by one. For the first two files, the raw datasets and intermediate datasets needed to run the code are included in each file, no need to change anything in the code. For EDA_cluster_time_series folder, since the datasets are too large to upload, please download the dataset from links we provided below and change the file path in our code.
 
 ## Word2Vec_TFIDF_traditionalML_RNN
 This folder contains code for using TF-IDF and Word2Vec to deal with text data. The subsequent steps involve applying traditional machine learning models ( Decision Tree, Naive Bayes, Linear SGD Classifier, Logistic Regression, Random Forest, and SVC) and applying RNN (Recurrent Netural Network) and evaluating models' performance.
@@ -27,10 +27,10 @@ This folder contains code for reading a labeled raw data Excel file ('labeled_ra
 This folder used the result predicted from BERT. We combined the numeric predictors and text predictors to conduct k-means clustering, and then plot the stack bar chart of the time series trend for five labels we've defined before.
 
 dataset:
-- df_labeled_test.csv: the whole 1000000 data with predicted labels using BERT(comes from file BERT). 
+- df_labeled_test.csv: this is our itermediate dataset. The whole 1000000 data with predicted labels using BERT(comes from file BERT). 
 - labeled_review_id.xlsx: manually labeled 1979 records of reviews. It is our sample for training and testing.
-- yelp_academic_dataset_business.json: raw data downloaded from yelp official website.
-- yelp_academic_dataset_review.json: raw data downloaded from yelp official website.
+- yelp_academic_dataset_business.json: raw data downloaded from yelp official website, the link is here: https://www.yelp.com/dataset. (please download the file and use the data inside, the data is too large, we can't upload it to github :(
+- yelp_academic_dataset_review.json: raw data downloaded from yelp official website, the link is here: https://www.yelp.com/dataset.
 
 
 
