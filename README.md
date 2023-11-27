@@ -27,6 +27,8 @@ This folder used the result predicted from BERT. We combined the numeric predict
 dataset:
 - df_labeled_test.csv: the whole 1000000 data with predicted labels using BERT(comes from file BERT). 
 - labeled_review_id.xlsx: manually labeled 1979 records of reviews. It is our sample for training and testing.
+- yelp_academic_dataset_business.json: raw data downloaded from yelp official website.
+- yelp_academic_dataset_review.json: raw data downloaded from yelp official website.
 
 
 
