@@ -27,7 +27,7 @@ This folder contains code for reading a labeled raw data Excel file ('labeled_ra
 This folder used the result predicted from BERT. We combined the numeric predictors and text predictors to conduct k-means clustering, and then plot the stack bar chart of the time series trend for five labels we've defined before.
 
 dataset:
-- df_labeled_test.csv: this is our itermediate dataset. The whole 1000000 data with predicted labels using BERT(comes from file BERT). Link of the data: https://drive.google.com/file/d/10PcVCoBCnqxw4uqgUA45UfAvxuzkakqd/view?usp=sharing
+- df_labeled_test.csv: this is our itermediate dataset. The whole 1000000 data with predicted labels using BERT(comes from file BERT). Please download the data from this link: https://drive.google.com/file/d/10PcVCoBCnqxw4uqgUA45UfAvxuzkakqd/view?usp=sharing
 - labeled_review_id.xlsx: manually labeled 1979 records of reviews. It is our sample for training and testing.
 - yelp_academic_dataset_business.json: raw data downloaded from yelp official website, the link is here: https://www.yelp.com/dataset. (please download the file and use the data inside, the data is too large, we can't upload it to github :(
 - yelp_academic_dataset_review.json: raw data downloaded from yelp official website, the link is here: https://www.yelp.com/dataset.
